@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@font-face {
+    font-family: 'Pippins';
+    src: url('./assets/fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Pippins';
+    src: url('./assets/fonts/Poppins/Poppins-Light.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pippins';
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: 'pippins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
